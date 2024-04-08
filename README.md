@@ -15,9 +15,20 @@ The project involves three main parts:
 ### Exploratory Analysis
 
 1. **Establishments with Hygiene Score of 20**: There are 41 establishments with a hygiene score of 20. For example, "The Chase Rest Home" in Eastbourne has a hygiene score of 20.
+
+![hygiene_20](Images/hygiene_20.PNG)
+
 2. **High-Rated Establishments in London**: 33 establishments in London have a rating value greater than or equal to 4, including pubs, restaurants, and other catering premises.
+
+![highest_rated_london](Images/high_rated_london.PNG)
+
 3. **Top 5 Establishments with Rating Value of 5**: The top 5 establishments with a rating value of 5, sorted by lowest hygiene score and nearest to "Penang Flavours" in Greenwich, include pubs, nurseries, and takeaway shops.
+
+![rating_5](Images/rating_5.PNG)
+
 4. **Local Authority Areas with Hygiene Score of 0**: The number of establishments with a hygiene score of 0 varies across different local authority areas. For example, Plumstead in Greenwich has several establishments with a hygiene score of 0.
+
+![hygiene_0](Images/hygiene_0.PNG)
 
 ## Technical Details
 
@@ -37,10 +48,6 @@ The project involves three main parts:
 - Use `NoSQL_analysis_starter.ipynb` for conducting exploratory analysis.
 - Explore specific questions using MongoDB queries and aggregation methods.
 - Display results using pprint and convert them into Pandas DataFrames for further analysis.
-
-## Screenshots
-
-Screenshots of data analysis results, including query outputs and DataFrame previews, will be included in the notebook for reference.
 
 ## Running the Code
 
